@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CyberSecurity_shortTerm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backcyber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Cyber Security"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cybersecurity" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cybersecurity short-term courses are available for students who want to learn the skills and knowledge required to protect data and networks, detect and prevent cyber-attacks. These courses are generally offered online and can be completed in a few months. Certification courses in Cyber Security are also available, which are basically short-term courses majorly offered online. The course duration varies from a few weeks to a few months. The syllabus for cybersecurity courses may differ from one university to another, but it generally covers topics such as system security, computer security, cryptography, network security, cyber forensics, etc"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing a cybersecurity short course, you can pursue various career paths in the field of cybersecurity. Some of the common roles include:
+Cybersecurity Analyst: Responsible for protecting an organization's system and data by analyzing and responding to potential threats.
+Security Engineer: Designs and builds security systems for an organization's computer networks.
+Cybersecurity Architect: Senior position involving the design of entire information security systems.
+Security Administrator: Manages an organization's security solutions and is responsible for enforcing security policies."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webcyber">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickcyber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

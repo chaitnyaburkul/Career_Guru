@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Graphics_shortTerm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backgrahpics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Graphics"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shortgraphic" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Several short-term graphic design courses are available, offering comprehensive training in visual communication and design principles. These courses are designed to prepare students for the competitive graphic design industry, covering various aspects of graphic design, including image editing, image manipulation, background design, and visual communication. The duration of these courses varies, with options ranging from 45 days to 6 months, depending on the mode of training and the intensity of the program. The curriculum typically includes practical classes on software such as Adobe Photoshop, Lightroom, and CorelDraw, providing students with hands-on experience. Upon completion of these courses, students are equipped to pursue various job roles in the graphic design industry, such as graphic designer, photo editor, layout designer, multimedia artist, and more. The courses are available in both classroom and online training modes, offering flexibility and accessibility to students and professionals."
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="After completing a graphic design course, individuals can pursue various job roles in the design industry. Some of the common job prospects include:Graphic Designer,Web Designer,Illustrator,Animator,Brand Identity Designer,Print and Layout Designer,Marketing and Advertising Designer."
+            android:paddingStart="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webgraphics">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickgraphics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

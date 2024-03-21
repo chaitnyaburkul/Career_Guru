@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".commerce_class_xi_xii">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backcommerce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Commerce"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/plantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/commerce2" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:id="@+id/descriptionHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <!-- New TextView for Actual Description from Firebase -->
+        <TextView
+            android:id="@+id/descriptionInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The commerce stream is an academic stream that focuses on studying various aspects of trade, business, and accounts. It is one of the most popular streams of education, along with Science and Arts The primary subjects that make up the commerce stream are Accounting, Economics, and Business studies"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The commerce stream includes subjects such as Accounting, Economics, Business Studies, and Mathematics Other areas of study may include Business Administration, Applied Economics, E-Commerce, Financial Accounting, Banking, and Insurance, Accounting and Finance, Banking and Finance, Accounting and Taxation, Actuarial Science, Human Resources, Entrepreneurship, Accounting, Auditing, and more"
+            android:justificationMode="inter_word"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+        <TextView
+            android:id="@+id/sprayingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses: "
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/sprayingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing Class 12 board examinations, students can pursue a Bachelor of Commerce (B.Com) degree, which is a fundamental foundation course Other undergraduate courses in the commerce stream include BBA, CA, CS, BBA LLB, BBM, and BSc Postgraduate courses include MCom, MBA, MPhil, and MSc."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/sprayingFrequencyHeading"/>
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The commerce stream offers a wide range of career opportunities in different industries. Some popular career options for commerce professionals include Chartered Accountancy (CA), Company Secretary (CS), Cost and Management Accountant (CMA), Chartered Financial Analyst (CFA), Banking Sector, Teaching, and more"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/Advice1Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specialization: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/Advice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Students can choose from various specializations within the commerce stream, such as Banking and Insurance, Actuarial Science, Business Administration, Applied Economics, Financial Accounting, Auditing, Investment Banking, and more."
+            android:paddingStart="5dp"
+            android:textSize="18sp" />
+
+
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webcom">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickcom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

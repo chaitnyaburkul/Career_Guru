@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary95"
+    tools:context=".Athletics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backathletics"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Athletics"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/athleticsport" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:text="Athletics, also known as track and field, encompasses a variety of competitions in running, walking, jumping, and throwing events. It is one of the oldest forms of organized sport, with its origins in the most basic human activities—running, walking, jumping, and throwing. The most common types of athletics competitions are track and field, road running, racewalking, and cross country running. The sport has become truly international, with nearly every country in the world engaging in some form of competition. Athletics is governed by World Athletics, and the organization ratifies all world records."
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" The syllabus is divided into two semesters, with the first semester focusing on trade practical and theory, and the second semester covering advanced topics such as programming with JavaScript, VBA, accounting software, and e-commerce. "
+            android:paddingStart="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The career prospects in athletics include various roles such as athletes, coaches, sports journalists, sports physiotherapists, sports psychologists, sports marketing managers, and many others. The demand for professionals in the field of athletics is expected to grow as the sport continues to gain popularity."
+            android:paddingStart="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webathletics">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickathletics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DLMT_Paramedical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backdmlt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="DMLT"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dmlttt" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="The Diploma in Medical Laboratory Technology (DMLT) is a program designed to prepare students for entry-level employment as medical laboratory technicians. The course duration is typically 2 years, and it involves a combination of theory, laboratory practice, and clinical experience. Students learn to collect, store, and analyze bodily fluids, perform laboratory procedures, and conduct clinical tests. The eligibility criteria for the DMLT course usually require a high school diploma or its equivalent.The DMLT course at some colleges in India has a duration of 2 years."
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing a diploma in Medical Laboratory Technology, there are various job opportunities available in both the public and private sectors. Some of the top job opportunities include diagnostic lab manager, laboratory technician, anesthesia technician, dental mechanic, and pathology technician. Graduates can work in hospitals, clinics, diagnostic centers, and research labs. The demand for medical laboratory technologists is expected to increase rapidly due to the increasing prevalence of diseases, which offers vast job options. Pursuing a career in medical laboratory technology also offers many opportunities for professional growth, and medical laboratory technologists can specialize in different areas such as microbiology, hematology, histology, cytology, etc."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webdmlt">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickdmlt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

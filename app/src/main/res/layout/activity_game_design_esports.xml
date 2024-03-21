@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameDesign_Esports">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backgamdes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Game Design"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gamedesginee" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" esports game design include defining the core gameplay loop, balancing game mechanics, designing for spectatorship, and supporting different modes and formats. Game designers in the esports industry focus on creating games that are engaging, balanced, and fair for both casual and professional gamers. They also emphasize social interaction, feedback, game performance optimization, and accessibility to ensure a fair and consistent experience for a diverse player base.Esports has influenced game design by placing a greater emphasis on creating games that are accessible yet offer room for improvement, particularly in multiplayer games. Game designers now focus on crafting games that can be played in front of live audiences and on streams, leading to the development of games that are easy to learn but hard to master, such as MOBAs, first-person shooters, and real-time strategy games.To prepare for a career in game design and esports, individuals can pursue relevant education and training, such as a minor in game design and esports, which covers areas such as esports history, analytics and administration, programming, and game design and development"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webgdesign">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickgdesign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

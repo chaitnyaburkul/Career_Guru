@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AC_mechanic_iti">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FF00BCD4">
+
+            <ImageView
+                android:id="@+id/backac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Ac Mechanic"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/technicianac" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A course in Air Conditioning (AC) Mechanic offered through the Industrial Training Institute (ITI) is designed to equip individuals with the skills and knowledge required for working with air conditioning and refrigeration systems.A course in Air Conditioning (AC) Mechanic offered through the Industrial Training Institute (ITI) is designed to equip individuals with the skills and knowledge required for working with air conditioning and refrigeration systems. Below is detailed information about the AC Mechanic ITI course:"
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The ITI Refrigeration and Air Conditioning (RAC) course covers a wide range of topics related to the maintenance and repair of refrigeration and air conditioning systems. Some of the major topics covered in the course include:Refrigeration and Air Conditioning Processes,Components and Equipment,Safety Measures,Installation and Servicing,Compressor Maintenance,Condenser and Evaporator Service,Repair and Maintenance"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ITI AC Mechanic courses can find employment in HVAC companies, refrigeration and air conditioning service providers, and maintenance departments of various industries."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webac">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+</ScrollView>

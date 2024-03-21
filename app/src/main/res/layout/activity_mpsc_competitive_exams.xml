@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MPSC_competitiveExams">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backmpsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="MPSC"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/white"
+            android:src="@drawable/mpscc" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="The Maharashtra Public Service Commission (MPSC) is a constitutional body established under Article 315 of the Indian Constitution. The MPSC is responsible for selecting officers for civil service jobs in the state of Maharashtra. The commission conducts several exams, including the Maharashtra Subordinate Services Exam, Maharashtra Agriculture Services Examination, and Maharashtra Group C Services Exam. The MPSC State Service Exam, also known as the MPSC Rajyaseva Exam, is held annually to recruit for Group A positions. The exam consists of two stages, the Preliminary Exam and the Main Exam, followed by an interview. The MPSC eligibility criteria include age limit, educational qualification, and physical fitness."
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="The job opportunities available through the MPSC include positions in the civil service, such as District Collectors/District Magistrates/Divisional Commissioners, as well as positions in other departments, such as Assistant Professor, Research Officer, General Duty Medical Officer, and Senior Scientific Officer"
+            android:paddingStart="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webmpsc">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickmpsc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

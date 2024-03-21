@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".science_class_xi_xii">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backscience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Science"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/plantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/science3" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <!-- New TextView for Actual Description from Firebase -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Science stream is considered the stream with the toughest curriculum but comes with various advantages, such as developing students into more progressive and analytical individuals, offering opportunities to contribute to mankind through scientific discoveries and advancements, providing a platform to understand the physical, chemical, and biological aspects of the universe, enhancing problem-solving and analytical abilities, and leading to various career opportunities in fields like engineering, medicine, research, and technology"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:justificationMode="inter_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="There are two sub-branches in the Science stream, divided based on the third subject you study:
+        Medical: This branch includes Physics, Chemistry, Biology, and English, along with an optional subject.
+        Non-Medical: This branch includes Physics, Chemistry, and Mathematics, along with an optional subject."
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="Some of the popular career options after 12th science include medicine, engineering, IT, data science, research, and many more. Students can also explore courses in commerce and humanities. The science stream offers a dynamic work environment filled with countless specializations and prospects in research, innovation, and technology. Some of the emerging career options in science include artificial intelligence, machine learning, big data, data analytics, blockchain technology, ethical hacking, cyber security, robotics, IoT, aviation, aerospace, food and agriculture science, environmental science, and sustainable development "
+            android:paddingStart="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webscience">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickscience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

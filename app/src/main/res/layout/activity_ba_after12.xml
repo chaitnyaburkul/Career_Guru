@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ba_after12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backba"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="BA"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bagraduation" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing 12th grade in India, students who have pursued the Arts stream have various options to pursue a Bachelor of Arts (BA) degree. The BA degree is a full-time, three-year undergraduate course in three domains - humanities, social sciences, and liberal arts. It is available in many different types of specializations such as Psychology, History, Archaeology, Geography, Economics, Journalism, Mass Communication, Sociology, Anthropology, Literature, and Languages (all the major languages), Environmental Science, etc.Students interested in pursuing a career in the Arts stream should carefully consider the specific eligibility, fees, and admission processes for the various courses and seek guidance from reputable sources to make well-informed decisions about their education and future career prospects."
+            android:justificationMode="inter_word"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing a Bachelor of Arts (BA), graduates have a wide range of job prospects. Some of the common job positions include:Writer,Editor,Journalist,Public Relations Specialist,Social Media Manager,Human Resources Specialist,Marketing Manager,Event Planner,Teacher,Research Analyst,Non-profit Administrator,Government Officer,Museum Curator,Librarian,Translator,Content Creator,Advertising Executive,Sales Representative,Customer Service Representative,Travel Agent,Additionally, BA graduates can pursue careers as freelance writers, editors, or teachers. They can also find employment in various industries such as advertising agencies, educational establishments, media houses, and public relations."
+            android:paddingStart="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webba">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickba"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

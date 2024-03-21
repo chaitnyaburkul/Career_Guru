@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".law_after12">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backlaw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Law"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/laww" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Bachelor of Laws (LLB) or Bachelor of Law (LLB) is an undergraduate degree that provides a comprehensive understanding of legal principles and practices.Students also develop practical and transferable skills through mooting sessions, practical law training, and opportunities for pro bono work.Teaching is typically through a combination of lectures, seminars, group work, presentations, and class debates. Some institutions also offer opportunities for students to study abroad or work pro bono with real-life clients.The course typically covers a wide range of topics, including the introduction to the legal system, legal research, reasoning and literacy skills, constitutional law, criminal law, business law, human rights, international law, and more."
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="offers various opportunities for students to pursue a career in law and beyond. Law graduates can work as legal professionals such as barristers, solicitors, legal executives, and paralegals. They can also work in the government and civil service, business and finance, law-related roles such as legal publishing and journalism, education, and other sectors such as charity work, media, and advertising. Law graduates can also pursue further study or professional qualifications in areas such as accountancy, HR, marketing, and business. Law courses typically offer a combination of lectures, seminars, group work, presentations, and class debates."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/weblaw">
+        </WebView>
+
+        <Button
+            android:id="@+id/clicklaw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

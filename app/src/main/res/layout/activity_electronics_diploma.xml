@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Electronics_Diploma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Electronics Engineering"
+                android:textColor="@color/black"
+                android:textSize="25sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/electronicsengg" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="A diploma in Electronics Engineering is a three-year program that provides in-depth knowledge in the field of electronic engineering, with a focus on electrical and electronics concepts. The program covers a wide range of subjects to equip students with the necessary skills and expertise for a career in the field.The diploma in Electronics Engineering aims to prepare students for various roles in the design, development, and maintenance of electronic equipment and systems, and it offers opportunities to specialize in sub-fields such as communication engineering, power electronics, and control systems"
+            android:paddingStart="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:text="The subjects covered in a diploma in electronics engineering program typically include a combination of core and elective topics, providing students with a strong foundation in both theoretical and practical aspects of the field. Some of the common subjects found in the curriculum of a diploma in electronics engineering are:Applied Science,Applied Mathematics,Mechanical Engineering Sciences,Elements of Electrical Engineering,English Communication,Electrical Circuits,Electronics,Digital Electronics,Microprocessors and Microcontrollers,Communication Engineering,Industrial Electronics,Power Electronics,Electronic Instrumentation,Control Systems,Computer-Aided Engineering Drawing,Basic Computer Skills."
+            android:paddingStart="5dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing a diploma in electronics engineering, there are various career opportunities available, including:Private sector jobs: Graduates can find employment in fields such as electronics, IT, power, telecom, utilities, transport, automotive, construction industries, and manufacturing. Government sector jobs: Opportunities exist in areas such as the Indian Railways, Indian Army, Indian Navy, and other public sector undertakings, offering social prestige, job security, and more remuneration.Higher studies: Graduates can pursue higher education, such as post-graduation and Ph.D., to broaden their perspective and enhance their career prospects. Job opportunities for diploma in electronics engineering graduates include roles such as electronics engineer, communication system operator, broadcast and sound technician, television production manager, and audiovisual production specialist"
+            android:paddingStart="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webelctronics">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickelectronics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feedback_activity">
+
+    <!-- activity_about_us.xml -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Career Guru is your ultimate career development companion, offering a wide range of tools and resources to help you succeed in your professional life. From exploring different career paths to creating personalized plans and gaining valuable skills, Career Guru has everything you need to reach your goals. Connect with industry experts, stay informed about the latest trends, and achieve your dreams with Career Guru by your side. Download now and start your journey to success!"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"/>
+
+
+
+
+        <TextView
+            android:id="@+id/tvDeveloperInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDeveloperName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Doe"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvDeveloperEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:autoLink="email"
+
+            android:drawableLeft="@drawable/email_about"
+            android:drawablePadding="20dp"
+            android:text="john.doe@example.com"
+            android:textColorLink="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvInstagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram: @john.doe"
+            android:drawableLeft="@drawable/instaabout"
+            android:drawablePadding="20dp"
+            android:textColorLink="@color/blue_lvy"
+            android:autoLink="web"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvFacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Facebook: JohnDoe"
+            android:textColorLink="@color/black"
+            android:drawableLeft="@drawable/abotface"
+            android:drawablePadding="20dp"
+            android:autoLink="web"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvCustomLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visit Website"
+            android:textColorLink="@color/blue_lvy"
+            android:autoLink="web"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_navigation"
+        android:background="@color/design_default_color_secondary"
+        app:itemTextColor="@drawable/selector_color"
+        app:itemIconTint="@drawable/selector_color"
+        app:menu="@menu/main_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary95"
+    tools:context=".Class_XI_XII">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/backp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Class xi-xii"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/xi11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/science">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Science"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/xi12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+
+                    android:src="@drawable/theater">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Arts"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/xi13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sales">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Commarce"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/xi14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/mcvccccccccc">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="MCVC"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/xi15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+
+            app:cardElevation="8dp">
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

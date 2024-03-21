@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agriculture_Vocational">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backagri"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Agriculture"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/agri" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agriculture vocational courses are designed to provide practical skills and knowledge for individuals interested in pursuing a career in agriculture.\nThese vocational agriculture courses aim to equip students with the necessary skills and expertise for a career in agriculture, farming, agribusiness, and rural development.\nThe specific curriculum and focus areas may vary by program and institution.Keep in mind that the specific details of a course may vary depending on the institution offering it.\nIt's always a good idea to check the curriculum of the specific vocational course you're interested in to ensure it aligns with your career goals in agriculture."
+            android:justificationMode="inter_word"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The subjects covered in vocational agriculture courses may vary based on the specific program and institution.\nHowever, a typical vocational agriculture course may include the following subjects:Agricultural Microbiology,Agri Chemistry,Hydroponics,Genetic Plant Breeding,Animal Husbandry,Agriculture and Food Business,Fisheries,Plant Physiology,Plant Biotechnology,Seed Science and Technology,Soil Science,Plant Pathology,Sericulture,Agricultural Economics,Agricultural Marketing,Export Management,Sustainable Agriculture Practices,Agricultural Entrepreneurship,Rural Development,Extension Services,Farm Accounting,Financial Management,Agribusiness Management."
+            android:paddingStart="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Completing a vocational agriculture course opens up various job prospects in the field of agriculture, farming, agribusiness, and rural development. Some of the popular job roles include Agriculturist, Agriculture Officer, Agriculture Technician, Agriculture Development Officers, Agricultural Research Scientist, Business Development Executive, Agricultural Consultant, Agricultural Engineer, Agricultural Economist, Agricultural Technician, Soil Scientist, Plant Nutritionist, Plant Geneticist, Agricultural Extension Specialist, Agricultural Market Analyst, Agronomist, and Crop Scientist."
+            android:paddingStart="5dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:id="@+id/webagri">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickagri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

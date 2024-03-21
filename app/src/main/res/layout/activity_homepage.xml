@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/design_default_color_secondary">
+
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/baseline_home_24"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:padding="10dp"
+                android:text="Career Guru"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:autoStart="true"
+            android:flipInterval="2000"
+            android:inAnimation="@android:anim/slide_in_left"
+            android:outAnimation="@android:anim/slide_out_right">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/engineercivil" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/badmintonsport" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/datasci" />
+
+            <ImageView
+                android:id="@+id/imageView111"
+                android:layout_width="wrap_content"
+                android:layout_height="190dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/rohittthit" />
+
+
+
+
+        </ViewFlipper>
+
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/after_10"
+                    android:layout_width="361dp"
+                    android:layout_height="143dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="25dp"
+                    android:scaleType="centerCrop"
+                    android:background="@color/white"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+
+                        android:id="@+id/imageView1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ogi8">
+
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <androidx.cardview.widget.CardView
+
+                    android:id="@+id/after_12"
+                    android:layout_width="367dp"
+                    android:layout_height="139dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    app:cardCornerRadius="20dp">
+
+
+                    <ImageView
+
+                        android:id="@+id/imageView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/ogi1">
+
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/after_Graduation"
+                    android:layout_width="369dp"
+                    android:layout_height="134dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/white"
+                    android:scaleType="centerCrop"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ogi3"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/after_CompetitiveExams"
+                    android:layout_width="369dp"
+                    android:background="@color/white"
+                    android:layout_height="135dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+
+                        android:id="@+id/imageView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/oig4" >
+
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/after_Sports"
+                    android:background="@color/white"
+                    android:layout_width="369dp"
+                    android:layout_height="134dp"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/cricket2" >
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/after_Esports"
+                    android:layout_width="369dp"
+                    android:layout_height="135dp"
+                    android:background="@color/white"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+
+                        android:id="@+id/imageView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/oig7" >
+
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+            <TableRow>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/after_shareMarket"
+                    android:layout_width="369dp"
+                    android:layout_height="134dp"
+                    android:background="@color/white"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+
+                        android:id="@+id/imageView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/oig5" >
+
+                    </ImageView>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/SocialMediaInfluencer"
+                    android:layout_width="369dp"
+                    android:layout_height="135dp"
+                    android:background="@color/white"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ogi9" >
+                    </ImageView>
+
+                </androidx.cardview.widget.CardView>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kf"
+            android:textColor="@color/white"
+            android:textSize="50dp">
+
+        </TextView>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bottom_navigation"
+        android:layout_alignParentBottom="true"
+        android:background="@color/design_default_color_secondary"
+        app:itemTextColor="@drawable/selector_color"
+        app:itemIconTint="@drawable/selector_color"
+        app:menu="@menu/main_menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

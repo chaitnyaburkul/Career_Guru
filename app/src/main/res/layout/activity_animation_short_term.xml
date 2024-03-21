@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Animation_shortTerm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backanimation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Animation"
+                android:textColor="@color/black"
+                android:textSize="30dp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/shortanimation" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Short-term animation courses are designed to provide students with the necessary skills and knowledge for a career in the animation industry. These courses are available at different levels, including certificate, diploma, and degree programs. The duration of these courses varies, with options ranging from 2 months to 6 months, depending on the mode of training and the intensity of the program. The curriculum typically includes practical classes on software such as Adobe Photoshop, Lightroom, and CorelDraw, providing students with hands-on experience. Upon completion of these courses, students are equipped to pursue various job roles in the animation industry, such as 3D animator, 2D animator, VFX artist, motion graphics artist, and more. The courses are available in both classroom and online training modes, offering flexibility and accessibility to students and professionals. Some of the top short-term animation courses include Animation VFX Prime, Basic 3D Animation using Blender, Certificate Course Animation Technology, and more. These courses are provided by top animation colleges in India, animators, or online learning platforms."
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Short-term animation courses offer a wide range of career opportunities in the animation and multimedia industry. These courses provide students with the necessary skills and knowledge to pursue various roles in the field of animation. Some of the job prospects after completing a short-term animation course include:Graphic Designer,Animator,Visual Effects Artist,Content Developers/Curators,3D Modeler,Multimedia Animator."
+            android:paddingStart="5dp"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webani">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickani"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

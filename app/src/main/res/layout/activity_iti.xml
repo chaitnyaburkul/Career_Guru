@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary95"
+    tools:context=".iti">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/backiti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="ITI"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iti1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/electrician">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Electrician"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iti2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/plumber">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Plumber"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iti3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="98dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/welder1">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Welder"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iti4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="25dp"
+            app:cardElevation="8dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/fitter">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="Fitter"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iti5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+
+            app:cardElevation="8dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/copa">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="COPA"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/iti6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            app:cardCornerRadius="25dp"
+            android:layout_margin="10dp"
+            app:cardElevation="8dp">
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:background="@android:color/system_accent1_100"
+                tools:targetApi="s">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/acmechanic">
+
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="25dp"
+                    android:text="AC Mechanic"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true"
+                    android:textSize="25sp">
+
+                </TextView>
+
+
+            </RelativeLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

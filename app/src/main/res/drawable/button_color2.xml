@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Define the linear gradient with three colors -->
+    <gradient
+        android:type="linear"
+        android:angle="45"
+        android:startColor="#00BCD4"
+        android:endColor="#E91E63"/>
+
+    <!-- Add other attributes (e.g., stroke and corners) as needed -->
+    <stroke
+        android:color="@color/white"
+        android:width="2dp" />
+
+    <corners android:radius="20dp" />
+
+</shape>

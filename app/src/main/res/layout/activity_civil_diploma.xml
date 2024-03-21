@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Civil_Diploma">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backscivil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Civil Engineering"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/plantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/engineercivil" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:id="@+id/descriptionHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <!-- New TextView for Actual Description from Firebase -->
+        <TextView
+            android:id="@+id/descriptionInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Civil Engineering is the professional engineering branch. Under this branch of engineering, the work is done on the design, construction and maintenance projects of building, house, road, dam, canal, airport and other physical and naturally built things. Civil engineers have the most important role in accomplishing all these. It is one of the best courses in the field of Engineering. The demand for Civil Engineers is increasing day by day. Thereafter, choosing this as a career option can prove to be one of the best decisions of the candidate’s life."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It covers subjects such as engineering mathematics, surveying, structural analysis, construction materials and methods, geotechnical engineering, transportation engineering, water resources engineering, project management, and computer-aided design (CAD). The program is designed to develop skills in structural analysis and design, surveying and mapping, construction project management, soil mechanics, hydraulic engineering, transportation planning, CAD software usage, and effective communication within a construction team. "
+            android:justificationMode="inter_word"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:paddingStart="5dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A diploma in civil engineering provides with various career opportunities in the construction and infrastructure industry. They can work in roles such as civil engineering technicians, construction managers, site engineers, and project managers. The diploma program equips learners with expertise in designing and analyzing structures, managing construction projects, conducting site investigations, and ensuring compliance with industry standards."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/Advice1Heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Specialization: "
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/Advice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The field of civil engineering offers various specializations, allowing professionals to focus on specific areas within the broader discipline. Some of the different specializations available in civil engineering include:Structural Engineering,Geotechnical Engineering,Transportation Engineering,Water Resources Engineering,Construction Engineering and Management,Forensic Engineering,Highway Engineering,Civil Engineering with Architecture,Geoinformatics Engineering,Coastal Engineering"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="18sp" />
+
+
+
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webcivil">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickcivil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

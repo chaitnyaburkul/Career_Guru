@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".arts_class_xi_xii">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backarts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="Arts"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/plantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/artsimg" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:id="@+id/descriptionHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <!-- New TextView for Actual Description from Firebase -->
+        <TextView
+            android:id="@+id/descriptionInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Arts is a diverse stream that includes the study of fine arts, virtual arts, performing arts, literary arts, humanities, and social science. It serves as a crucial tool for measuring a state's development, creativity, and social structure at a given time. With so many subjects under its umbrella, Arts offers a plethora of career options. After completing their 10th grade, students may opt for the Arts stream. They can later pursue a bachelor's and master's degree in Arts, specialising in a subject of their choice. The arts stream offers a diverse range of subjects, providing students with the opportunity to study human society and culture. It is a practical and realistic course that focuses on developing students' reasoning abilities, analytical skills, and awareness of real-life circumstances"
+            android:paddingStart="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The major subjects in the arts stream include History, Geography, Political Science, Economics, Psychology, Sociology, Philosophy, and Computer Science. In addition to these, there are also optional subjects such as Music, Dance, Creative Writing, and Foreign Languages like German, French, Mandarin, and Spanish. Students who choose the arts stream have diverse career options, including roles such as Historian, Psychologist, Journalist, Graphic Designer, and Public Relations Officer"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+        <TextView
+            android:id="@+id/sprayingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Courses: "
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/sprayingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing 12th in the arts stream, there are numerous courses and career options available to students. Some of the popular courses after 12th in arts include Bachelor of Arts (BA), Bachelor of Fine Arts (BFA), Bachelor of Journalism and Mass Communication (BJMC), Bachelor of Design (BDes), Bachelor of Hotel Management (BHM), Bachelor of Law (LLB), Bachelor of Social Work (BSW), and Bachelor of Library Science (BLibSc). Additionally, students can pursue diploma courses in fields such as journalism, photography, event management, and animation"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/sprayingFrequencyHeading"/>
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing the arts stream, there are numerous job prospects available in both the public and private sectors. Some of the popular career options include:Journalist,graphic designer,Teacher,Social Worker,Historian,Event Planner,Content Writer or More"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webarts">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickarts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

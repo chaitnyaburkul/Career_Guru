@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mcvc_class_xi_xii">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#FFEB3B">
+
+            <ImageView
+                android:id="@+id/backmcvc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/back_icon"
+                android:padding="15dp"
+                android:layout_centerVertical="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:padding="10dp"
+                android:text="MCVC"
+                android:textColor="@color/black"
+                android:textSize="30sp">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/plantImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/mcvc1" />
+
+
+        <!-- New TextView for Description -->
+        <TextView
+            android:id="@+id/descriptionHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:background="@color/design_default_color_secondary"
+            android:textStyle="bold"
+            android:padding="10dp"/>
+
+        <!-- New TextView for Actual Description from Firebase -->
+        <TextView
+            android:id="@+id/descriptionInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Minimum Competency and Vocational Courses (MCVC) stream is offered by various universities and is designed to provide vocational training in specific fields.These courses are of two years duration and are of the 10+2 pattern, meaning they are available to students after completing 10th standard. The MCVC stream is an alternative to traditional Arts, Commerce, and Science courses, and it aims to provide students with practical skills and training for specific professions. Upon completion of an MCVC course, students can seek employment in industries related to their field of study, such as finance, electronics, or office management. The MCVC stream is well-suited for students who are interested in pursuing a vocational career path and gaining practical experience in their chosen field"
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subjects: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/wateringFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Minimum Competency and Vocational Courses (MCVC) stream offers vocational training in specific fields. The subjects offered in the MCVC stream may vary depending on the university, but some of the common subjects include:Accounting ,Auditing,Marketing,Banking,Office Management,Crop Science,Auto Engineering Technology,Construction Technology,Electronics Technology,Electrical Technology."
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:paddingStart="5dp"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/wateringFrequencyHeading"/>
+
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Career opportunities: "
+            android:textColor="@color/black"
+            android:background="@color/design_default_color_secondary"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/fertilizingFrequencyInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="After completing Minimum Competency and Vocational Courses (MCVC), students can seek employment in industries related to their field of study. The job roles available after completing MCVC courses may vary depending on the specific course pursued, but some of the common job roles include:Banking Executive,Office Manager,Accountant,Marketing Executive,Agriculture Technician,Auto Technician."
+            android:paddingStart="5dp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:justificationMode="inter_word"
+            android:textSize="18sp" />
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/webmcvc">
+        </WebView>
+
+        <Button
+            android:id="@+id/clickmcvc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click For More"
+            android:background="@drawable/button_color2"
+            android:layout_margin="20dp">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</ScrollView>

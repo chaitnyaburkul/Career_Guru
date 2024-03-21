@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Career_guru</string>
+    <string name="navi_drawer_open">open navigation drawer</string>
+    <string name="navi_drawer_close">close navigation drawer</string>
+    <string name="textview">The subjects covered in a diploma in mechanical engineering program typically include a combination of core and elective topics, providing students with a strong foundation in both theoretical and practical aspects of the field.\nSome of the common subjects found in the curriculum of a diploma in mechanical engineering are:\nEngineering Mathematics,Engineering Physics,Engineering Chemistry,Environmental Studies,Engineering Mechanics,Electrical Technology,Computer Fundamentals,Thermodynamics,Fluid Mechanics,Manufacturing Processes,Machine Design,Control Systems,CAD/CAM,Project Management,Hydraulics,Applied Physics,Applied Chemistry,Strength of Materials,Power Plant Engineering,Non-Conventional Energy Resources,Metal Casting Science and Engineering."
+    </string>
+
+
+    <string name="textscience">
+        <br>There are two sub-branches in the Science stream, divided based on the third subject you study:\n</br>
+        <br>Medical: This branch includes Physics, Chemistry, Biology, and English, along with an optional subject.\n</br>
+        <br>Non-Medical: This branch includes Physics, Chemistry, and Mathematics, along with an optional subject.</br>
+
+
+    </string>
+
+    The science stream is a popular choice for students who are interested in pursuing careers in
+    fields such as medicine, research, or technology.The subjects in the science stream in class 11
+    include Physics, Chemistry, Biology, Mathematics, and Computer Science Physics and Chemistry are
+    common to both the Non-medical and Medical stream, while Mathematics is taken by students who
+    wish to pursue careers in engineering, architecture, aeronautics, etc. Biology is chosen if one
+    wants to start a career in the medical field The science stream offers an enticing path of
+    exploration and discovery, unveiling the intricacies of the natural world and the human body. It
+    fuels curiosity, challenges the intellect, and inspires innovation. By pursuing the science
+    stream, students embark on a thrilling adventure where they become detectives, unraveling the
+    mysteries of atoms, life, and the cosmosAfter completing the science stream, students can pursue
+    various career paths such as engineering, medicine, research and development, data analysis, and
+    scientific writing
+
+
+</resources>
